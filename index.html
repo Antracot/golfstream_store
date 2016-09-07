@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Заголовок</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	
+	<!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
+	<style></style>
+
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load CSS Start -->
+	<script>loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" );</script>
+	<script>loadCSS( "css/header.min.css?ver=1.0.0", false, "all" );</script>
+	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load CSS End -->
+
+	
+	<!-- Load CSS Compiled without JS -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+
+</head>
+<body>
+<div class="video_popup hidden">
+	<div class="video_cont">
+		<div class="close_button"><img src="../img/close_btn.png" alt="close"></div>
+		<div class="opacity"></div>
+		<div class="video_top"></div>
+		<!-- <img src="img/client_video_preview.jpg" alt> -->
+	</div>
+</div>
+
+<div class="fixed_header">
+	<div class="menu_wrap">		
+    	<div class="menu_nav">
+    		<a class="menu_icon"></a>
+    		<p>Меню</p>
+    	</div>
+    	<h1 class="head_h1">Комплексные<br>Бизнес Системы</h1>
+    	<div class="head_phone">
+    		<img src="img/tel_icon.png" alt="" class="tel_icon">
+    		<p><a class="tel" href="tel:+74953342211">+7 495 334 22 11</a></p>
+    	</div>
+    </div>
+</div>
+
+<div class="popup_success hidden">
+	<div class="message">
+   		<p class="p_popup">Спасибо за вашу заявку!<br>Наши менеджеры <i>свяжуться с вами</i>в ближайшее время.</p>
+   		<div class="blue_btn back_btn" id="popup_close_btn">ВЕРНУТЬСЯ НА ГЛАВНУЮ</div>
+	</div>
+</div>
+
+	<div class="header section" id="href1">
+		<div class="wrap">
+			<div class="slice" id="s1s1">
+				<h2 class="heder_h2">Открываем магазины от<br><span class="titel_span">подбора площади</span> до подлючения<br><span class="titel_span">кассового аппарата</span></h2>
+			</div>
+			<div class="slice" id="s1s2">
+				<div class="header_content_wrap">
+					<div class="header_item">
+						<img class="cont_icon" src="img/header_icon1.png" alt="">
+						<p class="cont_txt">Аналитика<br>по проходимости</p>
+					</div>
+					<div class="header_item">
+						<img class="cont_icon" src="img/header_icon2.png" alt="">
+						<p class="cont_txt">Привлечение<br>клиентов к открытию</p>
+					</div>
+					<div class="header_item">
+						<img class="cont_icon" src="img/header_icon3.png" alt="">
+						<p class="cont_txt">Подбор<br>торговой площади</p>
+					</div>
+					<div class="header_item">
+						<img class="cont_icon" src="img/header_icon4.png" alt="">
+						<p class="cont_txt">3 года технического<br>обслуживания</p>
+					</div>
+				</div>
+			</div>	
+			<div class="slice" id="s1s3">
+				<a class="blue_btn video_top" data-video="ZkqyIoYAXV8">
+					<img src="img/play_small_icon.png" alt="" class="play_small">
+					<p>смотреть видеo</p>
+				</a>
+			</div>	
+    	</div>
+ 	</div>
+
+ 	<div class="open_menu hidden animated fadeIn fadeInLeft">
+            <div class="close">
+              <a href="#" class="menu_icon"></a>
+	        		<p>Меню</p>
+            </div>
+            <span>Меню</span>
+            <ul>
+                <li>
+                    <a href="#href1">Главная</a>
+                </li>
+                <li>
+                    <a href="#href2">Бесплатная консультация</a>
+                </li>
+                <li>
+                    <a href="#href3">Наши проекты</a>
+                </li>
+                <li>
+                    <a href="#href4">Кейсы</a>
+                </li>
+                <li>
+                    <a href="#href5">Этапы открытия</a>
+                </li>
+                <li>
+                    <a href="#href6">Нюансы</a>
+                </li>
+                <li>
+                    <a href="#href7">Контакты</a>
+                </li>
+            </ul>
+  </div>
+
+ 	<div class="section" id="href2">
+		<div class="wrap">
+			<div class="slice" id="s2s1">
+				<h2 class="section2_h2">Бесплатная консультация<br>по <span class="titel_span">выбору помещения</span></h2>
+			</div>
+			<div class="slice" id="s2s2">
+				<p>Узнайте, какие площади идеально вам<br>подходят прямо сейчас</p>
+			</div>
+			<div class="slice" id="s2s3">
+				<div class="zakaz_form">
+					<p>Заполните форму, наш<br>менеджер свяжеться с вами<br>и уточнит все детали</p>
+					<form action="ajax/mail.php" method="post">
+						<input class="input_place" name="phone" placeholder="Ваш номер телефона" required>
+						<input type="submit" class="blue_btn" value="Узнать прямо сейчас">
+						<input type="hidden" name="firm" value="С сайта компании GolfStream">
+					</form>
+				</div>
+			</div>	
+    	</div>
+ 	</div>
+
+ 	<div class="section" id="href3">
+		<div class="wrap">
+			<div class="slice" id="s3s1">
+				<h2 class="section3_h2">Примеры последних открытых<br>нами <span class="titel_span">магазинов</span></h2>
+			</div>
+			<div class="slice" id="s3s2">
+				<div class="button_wrapper">
+					<a data-id="1" class="white_small_bnt active" id="store1">МАГАЗИН №1</a>
+					<a data-id="2" class="white_small_bnt" id="store2">МАГАЗИН №2</a>
+					<a data-id="3" class="white_small_bnt" id="store3">МАГАЗИН №3</a>
+					<a data-id="4" class="white_small_bnt" id="store4">МАГАЗИН №4</a>
+				</div>
+			</div>
+			<div class="slice" id="s3s3">
+				<div id="sec3_cont1" class="sec3_content">
+					<div class="video_block">
+						<div class="opacity"></div>
+						<img src="img/video_pr1.jpg" alt="video1" class="video_preview">
+						<div class="play_btn" data-video="hfby7XwoBl0"></div>
+					</div>
+					<div class="annotation">
+						<h2 class="annotation_h2">Бутик шуб и женской<br>верхней одежды1</h2>
+						<p class="annotation_p">Он вспомнил и сообразил всё о Дунечке, и<br>сердце его замерло. Он сорвался с места и<br>побежал. Человек остановился на пороге</p>
+						<div class="price">
+							<h2 class="price_h2">1.2 млн. руб.</h2>
+							<p class="price_p">Средняя месячная выручка</p>
+						</div>
+						<div class="deadline">
+							<h2 class="time_dedline">42 дня</h2>
+							<p class="deadline_p">Срок работы</p>
+						</div>					
+					</div>
+				</div>
+
+				<div id="sec3_cont2" class="sec3_content hidden">
+					<div class="video_block">
+						<div class="opacity"></div>
+						<img src="img/video_pr1.jpg" alt="video1" class="video_preview">
+						<div class="play_btn" data-video="hfby7XwoBl0"></div>
+					</div>
+					<div class="annotation">
+						<h2 class="annotation_h2">Бутик шуб и женской<br>верхней одежды2</h2>
+						<p class="annotation_p">Он вспомнил и сообразил всё о Дунечке, и<br>сердце его замерло. Он сорвался с места и<br>побежал. Человек остановился на пороге</p>
+						<div class="price">
+							<h2 class="price_h2">1.2 млн. руб.</h2>
+							<p class="price_p">Средняя месячная выручка</p>
+						</div>
+						<div class="deadline">
+							<h2 class="time_dedline">42 дня</h2>
+							<p class="deadline_p">Срок работы</p>
+						</div>					
+					</div>
+				</div>
+
+				<div id="sec3_cont3" class="sec3_content hidden">
+					<div class="video_block">
+						<div class="opacity"></div>
+						<img src="img/video_pr1.jpg" alt="video1" class="video_preview">
+						<div class="play_btn" data-video="hfby7XwoBl0"></div>
+					</div>
+					<div class="annotation">
+						<h2 class="annotation_h2">Бутик шуб и женской<br>верхней одежды3</h2>
+						<p class="annotation_p">Он вспомнил и сообразил всё о Дунечке, и<br>сердце его замерло. Он сорвался с места и<br>побежал. Человек остановился на пороге</p>
+						<div class="price">
+							<h2 class="price_h2">1.2 млн. руб.</h2>
+							<p class="price_p">Средняя месячная выручка</p>
+						</div>
+						<div class="deadline">
+							<h2 class="time_dedline">42 дня</h2>
+							<p class="deadline_p">Срок работы</p>
+						</div>					
+					</div>
+				</div>
+
+				<div id="sec3_cont4" class="sec3_content hidden">
+					<div class="video_block">
+						<div class="opacity"></div>
+						<img src="img/video_pr1.jpg" alt="video1" class="video_preview">
+						<div class="play_btn" data-video="hfby7XwoBl0"></div>
+					</div>
+					<div class="annotation">
+						<h2 class="annotation_h2">Бутик шуб и женской<br>верхней одежды4</h2>
+						<p class="annotation_p">Он вспомнил и сообразил всё о Дунечке, и<br>сердце его замерло. Он сорвался с места и<br>побежал. Человек остановился на пороге</p>
+						<div class="price">
+							<h2 class="price_h2">1.2 млн. руб.</h2>
+							<p class="price_p">Средняя месячная выручка</p>
+						</div>
+						<div class="deadline">
+							<h2 class="time_dedline">42 дня</h2>
+							<p class="deadline_p">Срок работы</p>
+						</div>					
+					</div>
+				</div>
+			</div>
+			<div class="slice" id="s3s4">
+				<div class="documents">
+					<h3 class="doc_h3">Вы можете ознакомиться с проектной документацией</h3>
+					<div class="docs_wrap">
+						<a href="doc1.docx" class="doc_a">Дизайн проект</a>
+						<a href="doc2.docx" class="doc_a">Проект архитектуры</a>
+						<a href="doc3.docx" class="doc_a">Проект электромонтаж</a>
+						<a href="doc4.docx" class="doc_a">Проект ОВК</a>
+					</div>
+				</div>
+			</div>	
+    	</div>
+ 	</div>
+
+ 	<div class="section" id="href4">
+		<div class="wrap">
+			<div class="slice" id="s4s1">
+				<h2 class="section4_h2">Какие <span class="titel_span">торговые площади</span> идеально<br>подходят для вашего магазина</h2>
+			</div>
+			<div class="slice" id="s4s2">
+				<p class="section4_p">Заполните форму узнайте какие торговые площади идеально<br>подходят для вашего магазина</p>
+			</div>
+
+			<div class="slice" id="s4s3">
+				<div class="sec4_form">
+					<div id="sec4_item1">
+						<p class="sec4_form_p">Какая ориентировочно<br>площадь вам подойдет?</p>
+						<div class="sec4_but_wrap">
+							<a class="sec_but d_v1" data-value="До 20 м2">До 20 м2</a>
+							<a class="sec_but d_v1" data-value="20 - 70 м2">20 - 70 м2</a>
+							<a class="sec_but d_v1" data-value="70 - 250 м2">70 - 250 м2</a>
+							<a class="sec_but d_v1" data-value="от 250 м2">от 250 м2</a>
+						</div>
+					</div>
+					<div class="hidden" id="sec4_item2">
+						<p class="sec4_form_p">Где территориально планируете размещать<br>магазин?</p>
+						<div class="sec4_but_wrap">
+							<a class="sec_but d_v2" data-value="В пределах МКАД">В пределах МКАД</a>
+							<a class="sec_but d_v2" data-value="За МКАД">За МКАД</a>
+						</div>
+					</div>
+					<div class="hidden" id="sec4_item3">
+						<p class="sec4_form_p">Когда планируете<br>открывать магазин?</p>
+						<div class="sec4_but_wrap">
+							<a class="sec_but d_v3" data-value="Через месяц">Через месяц</a>
+							<a class="sec_but d_v3" data-value="Два-три месяца">Два-три месяца</a>
+						</div>
+					</div>
+					<div class="hidden" id="sec4_item4">
+						<p class="sec4_form_p">Когда планируете<br>открывать магазин?</p>
+						<div class="sec4_but_wrap">
+							<form action="ajax/mail.php" method="post">
+								<input class="input_place" name="name" placeholder="Введите ваше имя" required>
+								<input class="input_place" name="phone" placeholder="Ваш номер телефона" required>
+								<input type="submit" class="sec4_btn" value="УЗНАТЬ СТОИМОСТЬ">
+							
+								<input type="hidden" name="firm" value="С сайта компании GolfStream">
+						        <input type="hidden" name="area" value="" id="step1_1">
+						        <input type="hidden" name="ter" value="" id="step1_2">
+						        <input type="hidden" name="dat" value="" id="step1_3">
+							</form>
+						</div>
+					</div>
+					<div class="back_arrow">вернуться Назад</div>
+				</div>
+			</div>
+    	</div>
+<!--     	<div class="popup_success hidden">
+			<div class="message">
+		   		<p class="p_popup">Спасибо за вашу заявку!<br>Наши менеджеры <i>свяжуться с вами</i>в ближайшее время.</p>
+		   		<div class="blue_btn back_btn" id="popup_close_href4">ВЕРНУТЬСЯ НА ГЛАВНУЮ</div>
+			</div>
+		</div>	 -->
+	</div>
+
+
+ 	<div class="section" id="href5">
+		<div class="wrap">
+			<div class="slice" id="s5s1">
+				<h2 class="section5_h2">Посмотрите истории<br>наших <span class="titel_span">клиентов</span></h2>
+			</div>
+
+			<div class="slice" id="s5s2">
+				<div class="cascade-slider_container" id="cascade-slider">
+					<div class="cascade-slider_slides">
+										
+						<div class="cascade-slider_item">
+							<div class="video_section">
+		                    	<div class="opacity"></div>
+		                    	<div class="video_btn" data-video="qlcWFoNqZHc"></div>
+		                    	<img src="img/client_video_preview.jpg" alt>
+		                	</div>
+		                    <div class="desc">
+		                        <div class="title1">Виктор Алексеевич1</div>
+		                        <div class="title2">Генеральный директор завода<br>по Чемуто-то там</div>
+		                    </div>
+		                </div>
+
+		                <div class="cascade-slider_item">
+							<div class="video_section">
+		                    	<div class="opacity"></div>
+		                    	<div class="video_btn" data-video="qlcWFoNqZHc"></div>
+		                    	<img src="img/client_video_preview.jpg" alt>
+		                 	</div>
+		                    <div class="desc">
+		                        <div class="title1">Виктор Алексеевич2</div>
+		                        <div class="title2">Генеральный директор завода<br>по Чемуто-то там</div>
+		                    </div>
+		                </div>
+
+		                <div class="cascade-slider_item">
+							<div class="video_section">
+		                    	<div class="opacity"></div>
+		                    	<div class="video_btn" data-video="qlcWFoNqZHc"></div>
+		                    	<img src="img/client_video_preview.jpg" alt>
+		                  	</div>
+		                    <div class="desc">
+		                        <div class="title1">Виктор Алексеевич3</div>
+		                        <div class="title2">Генеральный директор завода<br>по Чемуто-то там</div>
+		                    </div>
+		                </div>
+
+		                <div class="cascade-slider_item">
+							<div class="video_section">
+		                    	<div class="video_btn" data-video="qlcWFoNqZHc"></div>
+		                    	<div class="opacity"></div>
+		                    	<img src="img/client_video_preview.jpg" alt>
+		                  	</div>
+		                    <div class="desc">
+		                        <div class="title1">Виктор Алексеевич4</div>
+		                        <div class="title2">Генеральный директор завода<br>по Чемуто-то там</div>
+		                    </div>
+		                </div>
+
+		                <div class="cascade-slider_item">
+							<div class="video_section">
+		                    	<div class="opacity"></div>
+		                   		<div class="video_btn" data-video="qlcWFoNqZHc"></div>
+		                    	<img src="img/client_video_preview.jpg" alt>
+		                  	</div>
+		                    <div class="desc">
+		                        <div class="title1">Виктор Алексеевич5</div>
+		                        <div class="title2">Генеральный директор завода<br>по Чемуто-то там</div>
+		                    </div>
+		                </div>
+		             
+		                <ol class="cascade-slider_nav">
+		                    <li class="cascade-slider_dot cur"></li>
+		                    <li class="cascade-slider_dot"></li>
+		                    <li class="cascade-slider_dot"></li>
+		                    <li class="cascade-slider_dot"></li>
+		                    <li class="cascade-slider_dot"></li>
+		                </ol>
+		                
+		                <span class="cascade-slider_arrow cascade-slider_arrow-left" data-action="prev">
+		                    <img src="img/left_arrow.png" alt>
+		                </span>
+		                <span class="cascade-slider_arrow cascade-slider_arrow-right" data-action="next">
+		                    <img src="img/right_arrow.png" alt>
+		                </span>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+
+ 	<div class="section" id="href6">
+		<div class="wrap">
+			<div class="slice" id="s6s1">
+				<h2 class="section6_h2">Этапы работы<br>по <span class="titel_span">открытию магазина</span></h2>
+			</div>
+			<div class="slice" id="s6s2">
+				<div class="slider">
+					<ul class="bxslider">
+					  	<li>
+						  	<div class="slide">
+								<img class="slide_icon" src="img/sec6_icon1.png" alt="">
+								<h3 class="slide_h3">Аналитика Рынка1</h3>
+								<p class="slide_p">Выхватываются несколько восклицаний:<br>«Ай! ай!» — наконец все выпираются, и комната<br>остается пуста. Там купцы жаловались вашему<br>превосходительству.</p>
+							</div>
+					  	</li>
+					  	<li>
+					  		<div class="slide">
+								<img class="slide_icon" src="img/sec6_icon1.png" alt="">
+								<h3 class="slide_h3">Аналитика Рынка2</h3>
+								<p class="slide_p">Выхватываются несколько восклицаний:<br>«Ай! ай!» — наконец все выпираются, и комната<br>остается пуста. Там купцы жаловались вашему<br>превосходительству.</p>
+							</div>
+					  	</li>
+					  	<li>
+					  		<div class="slide">
+								<img class="slide_icon" src="img/sec6_icon1.png" alt="">
+								<h3 class="slide_h3">Аналитика Рынка3</h3>
+								<p class="slide_p">Выхватываются несколько восклицаний:<br>«Ай! ай!» — наконец все выпираются, и комната<br>остается пуста. Там купцы жаловались вашему<br>превосходительству.</p>
+							</div>
+					  	</li>
+					  	<li>
+					  	<div class="slide">
+								<img class="slide_icon" src="img/sec6_icon1.png" alt="">
+								<h3 class="slide_h3">Аналитика Рынка4</h3>
+								<p class="slide_p">Выхватываются несколько восклицаний:<br>«Ай! ай!» — наконец все выпираются, и комната<br>остается пуста. Там купцы жаловались вашему<br>превосходительству.</p>
+							</div>
+					  	</li>
+					  	<li>
+					  		<div class="slide">
+								<img class="slide_icon" src="img/sec6_icon1.png" alt="">
+								<h3 class="slide_h3">Аналитика Рынка5</h3>
+								<p class="slide_p">Выхватываются несколько восклицаний:<br>«Ай! ай!» — наконец все выпираются, и комната<br>остается пуста. Там купцы жаловались вашему<br>превосходительству.</p>
+							</div>
+					 	</li>
+						</ul>
+						<div id="bx-pager">
+						  <a data-slide-index="0" href="">01</a>
+						  <a data-slide-index="1" href="">02</a>
+						  <a data-slide-index="2" href="">03</a>
+						  <a data-slide-index="3" href="">04</a>
+						  <a data-slide-index="4" href="">05</a>
+						</div>
+				</div>
+			</div>	
+    	</div>
+ 	</div>
+
+ 	<div class="section" id="href7">
+		<div class="wrap">
+			<div class="slice" id="s7s1">
+				<h2 class="section7_h2">Какие <span class="titel_span">торговые площади</span> идеально<br>подходят для вашего магазина</h2>
+			</div>
+			<div class="slice" id="s7s2">
+				<p class="section7_p">Заполните форму узнайте какие торговые площади идеально<br>подходят для вашего магазина</p>
+			</div>	
+			<div class="slice " id="s7s3">
+				<div class="sec7_form">
+					<div class="fadeInDown" id="sec7_item1">
+						<p class="sec7_form_p">Какая ориентировочно<br>площадь вам подойдет?</p>
+						<div class="sec7_but_wrap">
+							<a class="sec_but d_v21" data-value="До 20 м2">До 20 м2</a>
+							<a class="sec_but d_v21" data-value="20 - 70 м2">20 - 70 м2</a>
+							<a class="sec_but d_v21" data-value="70 - 250 м2">70 - 250 м2</a>
+							<a class="sec_but d_v21" data-value="от 250 м2">от 250 м2</a>
+						</div>
+					</div>
+					<div class="hidden fadeInDown" id="sec7_item2">
+						<p class="sec7_form_p">Где территориально планируете размещать<br>магазин?</p>
+						<div class="sec7_but_wrap">
+							<a class="sec_but d_v22" data-value="В пределах МКАД">В пределах МКАД</a>
+							<a class="sec_but d_v22" data-value="За МКАД">За МКАД</a>
+						</div>
+					</div>
+					<div class="hidden fadeInDown" id="sec7_item3">
+						<p class="sec7_form_p">Когда планируете<br>открывать магазин?</p>
+						<div class="sec7_but_wrap">
+							<a class="sec_but d_v23" data-value="Через месяц">Через месяц</a>
+							<a class="sec_but d_v23" data-value="Два-три месяца">Два-три месяца</a>
+						</div>
+					</div>
+					<div  class="hidden fadeInDown"  id="sec7_item4">
+						<p class="sec7_form_p">Когда планируете<br>открывать магазин?</p>
+						<div class="sec7_but_wrap">
+							<form action="ajax/mail.php" method="post">
+								<input class="input_place" name="name" placeholder="Введите ваше имя" required>
+								<input class="input_place" name="phone" placeholder="Ваш номер телефона" required>
+								<input type="submit" class="sec7_btn" value="УЗНАТЬ СТОИМОСТЬ">
+							
+								<input type="hidden" name="firm" value="С сайта компании GolfStream">
+						        <input type="hidden" name="area" value="" id="step2_1">
+						        <input type="hidden" name="ter" value="" id="step2_2">
+						        <input type="hidden" name="dat" value="" id="step2_3">
+							</form>
+						</div>
+					</div>
+					<div class="back_arrow">вернуться назад</div>
+				</div>
+			</div>
+	</div>
+<!--     	<div class="popup_success hidden">
+			<div class="message">
+		   		<p class="p_popup">Спасибо за вашу заявку!<br>Наши менеджеры <i>свяжуться с вами</i>в ближайшее время.</p>
+		   		<div class="blue_btn back_btn" id="popup_close_href7">ВЕРНУТЬСЯ НА ГЛАВНУЮ</div>
+			</div>
+		</div> -->	
+</div>
+
+ 	<div class="section" id="href8">
+		<div class="wrap">
+			<div class="slice" id="s8s1">
+				<h2 class="section8_h2">Нюансы на которые сильно<br><span class="titel_span">влияют на продажи</span></h2>
+			</div>
+			<div class="slice" id="s8s2">
+				<div class="button_wrapper">
+					<a href="#" data-id="1" class="white_small_bnt active">свет</a>
+					<a href="#" data-id="2" class="white_small_bnt">витрина</a>
+					<a href="#" data-id="3" class="white_small_bnt">оформление</a>
+					<a href="#" data-id="4" class="white_small_bnt">персонал</a>
+				</div>
+			</div>
+			<div class="slice" id="s8s3">
+				<div id = "sec8_tab1" class="sec8_content">
+					<div class="annotation">
+						<h2 class="annotation_h2">Витрина1 - один<br>из главных факторов</h2>
+						<p class="annotation_p">Я увидал тут главное то, чего я не видал из первой двери: чем заставляли входить волов в эту дверь.</p>
+						<p class="annotation_p">Всякий раз, как брали вола из загона и тянули его спереди на веревке, привязанной за рога, вол, чуя кровь, упирался, иногда ревел и пятился. Силой втащить двум людям его нельзя бы были, и потому всякой раз один из мясников заходил сзади, </p>			
+					</div>
+					<img src="img/sec8_im1.jpg" alt="" class="sec8_img">
+				</div>
+
+				<div id = "sec8_tab2" class="sec8_content hidden">
+					<div class="annotation">
+						<h2 class="annotation_h2">Витрина2 - один<br>из главных факторов</h2>
+						<p class="annotation_p">Я увидал тут главное то, чего я не видал из первой двери: чем заставляли входить волов в эту дверь.</p>
+						<p class="annotation_p">Всякий раз, как брали вола из загона и тянули его спереди на веревке, привязанной за рога, вол, чуя кровь, упирался, иногда ревел и пятился. Силой втащить двум людям его нельзя бы были, и потому всякой раз один из мясников заходил сзади, </p>			
+					</div>
+					<img src="img/sec8_im1.jpg" alt="" class="sec8_img">
+				</div>
+
+				<div id = "sec8_tab3" class="sec8_content  hidden">
+					<div class="annotation">
+						<h2 class="annotation_h2">Витрина3 - один<br>из главных факторов</h2>
+						<p class="annotation_p">Я увидал тут главное то, чего я не видал из первой двери: чем заставляли входить волов в эту дверь.</p>
+						<p class="annotation_p">Всякий раз, как брали вола из загона и тянули его спереди на веревке, привязанной за рога, вол, чуя кровь, упирался, иногда ревел и пятился. Силой втащить двум людям его нельзя бы были, и потому всякой раз один из мясников заходил сзади, </p>			
+					</div>
+					<img src="img/sec8_im1.jpg" alt="" class="sec8_img">
+				</div>
+
+				<div id = "sec8_tab4" class="sec8_content hidden">
+					<div class="annotation">
+						<h2 class="annotation_h2">Витрина4 - один<br>из главных факторов</h2>
+						<p class="annotation_p">Я увидал тут главное то, чего я не видал из первой двери: чем заставляли входить волов в эту дверь.</p>
+						<p class="annotation_p">Всякий раз, как брали вола из загона и тянули его спереди на веревке, привязанной за рога, вол, чуя кровь, упирался, иногда ревел и пятился. Силой втащить двум людям его нельзя бы были, и потому всякой раз один из мясников заходил сзади, </p>			
+					</div>
+					<img src="img/sec8_im1.jpg" alt="" class="sec8_img">
+				</div>
+			</div>
+	</div>
+</div>
+
+ 	<div class="section" id="href9">
+ 		<div class="map_wrap">
+	 			<div class="container">
+					<div class="sec9_form">
+						<p class="sec9_form_p">Остались вопросы? Пишите.</p>
+						<div class="sec9_but_wrap">
+							<form action="ajax/mail.php" method="post">
+								<input class="input_place" name="name" placeholder="Введите ваше имя" required>
+								<input class="input_place" name="phone" placeholder="Ваш номер телефона" required>
+								<textarea  class="input_place message" name="mess" placeholder="Ваш вопрос..." required></textarea>
+								<input type="submit" class="sec9_btn" value="Отправить Сообщение">
+							
+								<input type="hidden" name="firm" value="С сайта компании GolfStream">
+							</form>
+						</div>
+	    			</div>
+    		</div>
+    	</div>
+<!--     	<div class="popup_success hidden">
+			<div class="message">
+		   		<p class="p_popup">Спасибо за вашу заявку!<br>Наши менеджеры <i>свяжуться с вами</i>в ближайшее время.</p>
+		   		<div class="blue_btn back_btn" id="popup_close_href9">ВЕРНУТЬСЯ НА ГЛАВНУЮ</div>
+			</div>
+		</div> -->
+   			<div id="map"></div>
+    	<footer>
+		    	<div class="cotact_inform">
+					<div class="cont_wrap">
+						<div class="contact_item">
+							<img src="img/mail_icon.png" alt="" class="contact_icon">
+							<p class="contact_p">e-mail</p>
+							<h4 class="contact_data">hello@gmail.com</h4>
+						</div>
+						<div class="contact_item">
+							<img src="img/phone_icon.png" alt="" class="contact_icon">
+							<p class="contact_p">телефон</p>
+							<h4 class="contact_data"><a class="tel tel_bl" href="tel:+74953342211">+7 495 334 22 11</a></h4>
+						</div>
+						<div class="contact_item">
+							<img src="img/pointer_icon.png" alt="" class="contact_icon">
+							<p class="contact_p">адрес</p>
+							<h4 class="contact_data">White House, London</h4>
+						</div>
+					</div>
+				</div>
+				<div class="wrap_end">
+		    		<img src="img/compleks_logo.jpg" alt="" class="complex_logo">
+						<a href="" class="allrigths">Политика конфиденциальности</a>
+					<img src="img/gulfstrem_logo.jpg" alt="" class="gulfsteam_logo">
+				</div>
+	 	</footer>
+ 	</div>
+	<!-- <div class="dummy"></div> -->
+	<div class="hidden"></div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+
+	<script src="//www.youtube.com/player_api"></script>
+
+	<!-- Load Scripts Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.js", "async" : false},
+		{"src" : "js/init.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Load Scripts End -->
+
+</body>
+</html>
