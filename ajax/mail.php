@@ -27,10 +27,10 @@ $subject = 'Заказ по торговой площади';
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 
-$to = "artem.korchevy@gmail.com";
+$to = "avo579@yandex.ru";
 //$to = "maddocs@yandex.ru";
 
-$message = "От куда?: $firm\n\n";
+$message = "От куда: $firm\n\n";
 
 $message .= "Имя: $name\n";
 $message .= "Телефон: $phone\n";
